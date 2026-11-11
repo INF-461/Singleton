@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>Rapport INF461 - Singleton</title>
+<style>
+body{font-family:Arial,sans-serif;max-width:900px;margin:40px auto;line-height:1.6;color:#222}
+h1,h2{color:#17365d}
+h1{text-align:center}
+section{margin:25px 0}
+img{max-width:100%;border:1px solid #ccc;margin:15px 0}
+code{background:#eee;padding:3px 6px}
+</style>
+</head>
+<body>
+<h1>INF461 - Patron de construction Singleton</h1>
+<p><strong>Projet :</strong> Singleton</p>
+<p><strong>Objectif :</strong> garantir qu'une classe ne possede qu'une seule instance et fournir un point d'acces global a cette instance.</p>
+
+<section>
+<h2>1. Version du cours</h2>
+<p>La classe Singleton possede un attribut statique qui conserve l'instance unique. Ses constructeurs sont prives. La methode getInstance() cree l'objet uniquement lorsqu'il n'existe pas encore.</p>
+<p>La version reprend l'exemple du support avec les attributs x et y, ainsi que les methodes Somme, moyenne, Produit et affiche.</p>
+<img src="Diagrammes/Singleton_Cours.svg" alt="Diagramme UML Singleton cours">
+</section>
+
+<section>
+<h2>2. Version modifiee</h2>
+<p>La classe GestionnaireApplication centralise le nom de l'application et le nombre d'actions enregistrees. Plusieurs references recuperent la meme instance et partagent donc le meme etat.</p>
+<p>La methode getInstance() est synchronisee afin de proteger la creation de l'instance dans un contexte multithread.</p>
+<img src="Diagrammes/Singleton_Modifie.svg" alt="Diagramme UML Singleton modifie">
+</section>
+
+<section>
+<h2>3. Verification</h2>
+<p>Les deux versions sont compilees avec javac et executees avec Java. Les tests verifient notamment que deux appels a getInstance() renvoient la meme instance.</p>
+</section>
+
+<section>
+<h2>4. Conclusion</h2>
+<p>Le patron Singleton controle la creation d'un objet et permet de partager un etat commun dans l'application. Il doit etre utilise lorsque l'unicite de l'instance est reellement necessaire.</p>
+</section>
+</body>
+</html>

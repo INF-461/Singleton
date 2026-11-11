@@ -1,0 +1,12 @@
+﻿===== TEST DU SINGLETON : COURS =====
+Je suis une instance Singleton.
+Valeur de x : 8
+Valeur de y : 3
+Je suis une instance Singleton.
+Valeur de x : 8
+Valeur de y : 3
+s1 et s2 sont-ils le meme objet ? true
+Somme de 8 et 3 : 11
+Moyenne de 8 et 3 : 5.5
+Produit de 8 et 3 : 24
+===== FIN DES TESTS =====

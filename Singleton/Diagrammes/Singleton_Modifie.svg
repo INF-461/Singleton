@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="850" height="430">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="425" y="45" text-anchor="middle" font-size="26" font-family="Arial" font-weight="bold">Singleton - Version modifiee</text>
+<rect x="180" y="90" width="490" height="260" fill="#d9ead3" stroke="#333" stroke-width="2"/>
+<rect x="180" y="90" width="490" height="48" fill="#93c47d" stroke="#333" stroke-width="2"/>
+<text x="425" y="122" text-anchor="middle" font-size="22" font-family="Arial" font-weight="bold">GestionnaireApplication</text>
+<line x1="180" y1="138" x2="670" y2="138" stroke="#333" stroke-width="2"/>
+<text x="205" y="175" font-size="18" font-family="monospace">- instance : GestionnaireApplication</text>
+<text x="205" y="205" font-size="18" font-family="monospace">- nomApplication : String</text>
+<text x="205" y="235" font-size="18" font-family="monospace">- nombreActions : int</text>
+<line x1="180" y1="250" x2="670" y2="250" stroke="#333" stroke-width="2"/>
+<text x="205" y="280" font-size="18" font-family="monospace">- GestionnaireApplication()</text>
+<text x="205" y="310" font-size="18" font-family="monospace">+ getInstance() : GestionnaireApplication</text>
+<text x="205" y="338" font-size="18" font-family="monospace">+ enregistrerAction(), afficherEtat()</text>
+<text x="425" y="395" text-anchor="middle" font-size="16" font-family="Arial">Client recupere toujours la meme instance</text>
+</svg>

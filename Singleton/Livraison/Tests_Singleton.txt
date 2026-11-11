@@ -1,0 +1,18 @@
+JOURNAL DES TESTS - INF461 SINGLETON
+
+VERSION COURS
+1. Compilation des fichiers Java.
+2. Execution de Client.
+3. Verification de la somme.
+4. Verification de la moyenne.
+5. Verification du produit.
+6. Verification que s1 et s2 sont la meme instance.
+
+VERSION MODIFIEE
+1. Compilation des fichiers Java.
+2. Execution de Client.
+3. Verification du partage du nom de l'application.
+4. Verification du compteur d'actions.
+5. Verification de l'identite des deux references.
+
+Les resultats definitifs sont ceux obtenus lors de l'execution.

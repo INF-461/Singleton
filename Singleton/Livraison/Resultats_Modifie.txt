@@ -1,0 +1,16 @@
+﻿===== TEST DU SINGLETON MODIFIE =====
+
+Etat depuis application1 :
+Nom : OyokiTech Solutions
+Nombre d'actions : 1
+
+Etat depuis application2 :
+Nom : OyokiTech Solutions
+Nombre d'actions : 2
+
+Les deux references pointent-elles vers le meme objet ? true
+Nom partage : OyokiTech Solutions
+Actions partagees : 2
+
+TEST REUSSI : Singleton fonctionne.
+===== FIN DES TESTS =====
